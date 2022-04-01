@@ -1,2 +1,2 @@
 
-https://tatsik.github.io/rsschool-cv/
+https://Tatsik.github.io/rsschool-cv/
