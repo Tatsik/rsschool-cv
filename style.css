@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(211, 207, 203)
+
+} 
+
+.header,
+.footer {
+    background-color: #3b393a;
+}
+
+main{
+background-color: rgb(211, 207, 203);
+}
+
+.container {
+
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    padding-right: 30px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+.nav-link {
+    flex-wrap: wrap;
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: .3s;
+    color: #f4f4f4;
+
+
+}
+
+
+
+
+.section-item a {
+    color: #829985;
+
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+.section-item a:hover {
+    color: #4d2323;
+}
+
+h1,
+h2{
+    text-transform:uppercase;
+    color:#3b393a ;
+
+}
+
+h1{
+    font-size: 2em;
+}
+
+#name{
+    border-bottom: 5px solid #3b393a;
+    margin-left: 2%;
+    padding-bottom: 10px;
+    display: flex;
+    width: 94%;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-content:center;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+.photo img{
+    float: right;
+    height: 35vh;
+    padding-right: 30px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.name{
+    width: 70%;
+}
+.photo{
+    width: 30%;
+}
+
+@media (max-width: 768px) {
+    .name, .photo {
+      width: 100%;
+      justify-content: center
+    }
+  }
+
+
+#name{
+    padding-left: 50px;
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.section {
+    width: 45%;
+    padding: 20px;
+    border-bottom: 2px solid #3b393a;
+    margin: 0 2%;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+#contacts li,
+#education li{
+    list-style-type: none; 
+}
+
+#contacts li a,
+#project a{
+    text-decoration: none;
+    
+    color: #3b393a;
+}
+
+#contacts ul,
+#education ul{
+    padding: 0;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.logo img{
+    width: 150px;
+}
